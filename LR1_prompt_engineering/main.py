@@ -14,7 +14,7 @@ MAX_TOKENS = 6144
 TEMPERATURE = 0.2
 TOP_P = 0.95
 
-START_IDX = 49  # ← НАЧИНАЕМ С 49-й СТРОКИ (0-based)
+START_IDX = 0 # ← НАЧИНАЕМ С 49-й СТРОКИ (0-based)
 
 SYSTEM_PROMPT_TEMPLATE = (
     "Ты — эксперт в области {category}. "
